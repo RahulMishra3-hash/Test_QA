@@ -1,0 +1,24 @@
+Login Test Case:
+
+Test Case ID: TC_LOGIN_01
+Title: Validate login functionality with valid credentials
+
+Precondition:
+- User is on the Login Page
+
+Test Steps:
+1. Enter valid username (e.g., testuser)
+2. Enter valid password (e.g., Password123)
+3. Click 'Login' button
+
+Expected Result:
+- User should be successfully logged in and redirected to the dashboard/home page
+- No error message should be displayed
+
+Validation:
+- Verify if dashboard/home page is displayed
+- Check if session or token is generated
+- Ensure no login errors are shown
+
+Negative Test:
+Repeat above steps with invalid credentials; expected result: login fails and error message is shown.
